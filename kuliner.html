@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BLOG SEMARANG</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5 d-flex justify-content-between align-items-center">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="assets/img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top me-2">
+                    Blogger Semarang
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0 d-flex align-items-center">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Sejarah</a></li>
+                        <li class="nav-item">
+                            <span class="nav-link datetime" id="datetime"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <script>
+            function updateDateTime() {
+                const now = new Date();
+                const options = { 
+                    weekday: 'long', 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric', 
+                    hour: '2-digit', 
+                    minute: '2-digit', 
+                    second: '2-digit' 
+                };
+                document.getElementById('datetime').textContent = now.toLocaleDateString('id-ID', options);
+            }
+
+            setInterval(updateDateTime, 1000);
+            updateDateTime();
+        </script>
+
+        <style>
+
+
+            /* Styling untuk tanggal dan waktu (datetime) */
+            .datetime {
+                font-size: 0.9rem; /* Menyesuaikan ukuran teks agar lebih cocok dengan navbar */
+                font-weight: 600;
+                color: #666; /* Warna teks untuk tanggal dan waktu */
+                background-color: #f8f9fa; /* Latar belakang yang lebih terang */
+                padding: 6px 12px; /* Padding untuk memberi jarak */
+                border-radius: 6px; /* Menambahkan radius agar sudut lebih halus */
+                margin-left: 15px; /* Menjaga jarak dengan item navbar lainnya */
+            }
+
+            /* Agar tampilannya lebih rapi saat responsif */
+            @media (max-width: 767px) {
+                .datetime {
+                    font-size: 0.8rem;
+                    margin-left: 0;
+                    margin-top: 10px; /* Memberi ruang di perangkat kecil */
+                }
+            }
+        </style>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://www.bluebirdgroup.com/storage/articles/65f90d3367658.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Rekomendasi Kuliner di Semarang yang Enak & Legendaris</h1>
+                            <!--<h2 class="subheading">Problems look mighty small from 150 miles up</h2>-->
+                            <span class="meta">
+                                Posted by
+                                <a href="#!">Blogger Semarang</a>
+                                on February 5, 2025
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h3>1. Lumpia Semarang Gang Lombok</h3>
+                        <a href="#!"><img class="img-fluid" src="https://www.bluebirdgroup.com/storage/files/shares/articles/Kuliner%20Semarang/Lumpia%20Semarang%20Gang%20Lombok.jpg" alt="..." /></a>
+                        <span class="caption text-muted">Loenpia Gang Lombok</span>
+                        <P>Salah satu wisata kuliner murah dan legendaris di Semarang adalah Lumpia Gang Lombok. Kuliner ini merupakan gorengan dengan pilihan isi rebung, telur, daging ayam, atau udang yang gurih dengan tambahan saus spesial dan acar. </P>
+                        <p>Sebagai kuliner legendaris, maka tak salah menjadikan Loenpia Gang Lombok menjadi salah satu destinasi wisata kuliner di Semarang. Menariknya lagi, buat kamu yang berwisata di Semarang, lumpia Gang Lombok bisa menjadi salah satu pilihan oleh-oleh khas Semarang yang bisa kamu bawa pulang.</p>
+                        <p>Datanglah ke Gang Lombok No. 11, Semarang, Jawa Tengah untuk menikmati lezatnya lumpia ini. Harganya mulai dari Rp17.000, tetapi porsi yang besar bikin kamu kenyang walaupun cicip satu porsi. </p>
+                        <h3>2. Gudeg Koyor Mbak Tum</h3>
+                        <a href="#!"><img class="img-fluid" src="https://www.bluebirdgroup.com/storage/files/shares/articles/Kuliner%20Semarang/Gudeg%20Koyor%20Mbak%20Tum.jpg" alt="..." /></a>
+                        <span class="caption text-muted">Gudeg Koyor Mbak Tum</span>
+                        <P>Lapar tengah malam? Jangan khawatir karena kamu bisa temukan banyak tempat kuliner malam di Semarang, salah satunya Gudeg Koyor Mbak Tum. Meskipun gudeg identik dengan kuliner khas Yogyakarta, di Semarang juga menyimpan gudeg enak yang bisa kamu cicipi. </P>
+                        <p>Lokasinya berada di Wonodri, Semarang Selatan dan menjadi salah satu tempat makan di Semarang yang  legendaris karena sudah ada sejak 1991. Gudeg Koyor Mbak Tum buka setiap hari sejak pukul 17.00 - 03.00 WIB. Harga mulai dari Rp15.000 sampai Rp25.000 dengan menu koyor yang lembut dan empuk dan tambahan lauk seperti ayam serta sambal.</p>
+                        <h3>3. Tahu Petis Prasojo Simpang Lima</h3>
+                        <a href="#!"><img class="img-fluid" src="https://www.bluebirdgroup.com/storage/files/shares/articles/Kuliner%20Semarang/Tahu%20Petis%20Prasojo.jpg" alt="..." /></a>
+                        <span class="caption text-muted">Tahu Petis Prasojo</span>
+                        <P>Simpang Lima Semarang jadi salah satu area yang banyak dikunjungi wisawatan. Salah satu wisata kuliner di Simpang Lima Semarang adalah Tahu Petis Prasojo. Selain di santap di tempat, tahu petis bisa dijadikan oleh-oleh khas Semarang setelah berlibur. </P>
+                        <p>Tahu Petis Prasojo hadir sejak tahun 1980. Sesuai dengan namanya, makanan khas Semarang ini berupa tahu yang berisi petis. Petis sendiri merupakan olahan udang atau ikan yang dimasak dalam waktu lama hingga mengeluarkan kaldu atau sari. </p>
+                        <p>Gerainya berada di pinggir jalan dengan gerobak kuning yang mencolok. Selain tahu petis, ada menu rolade goreng, tempe mendoan, tahu susur, dan tape goreng. </p>
+                       
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright Kelompok 2</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BLOG SEMARANG</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5 d-flex justify-content-between align-items-center">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="assets/img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top me-2">
+                    Blogger Semarang
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0 d-flex align-items-center">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Sejarah</a></li>
+                        <li class="nav-item">
+                            <span class="nav-link datetime" id="datetime"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <script>
+            function updateDateTime() {
+                const now = new Date();
+                const options = { 
+                    weekday: 'long', 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric', 
+                    hour: '2-digit', 
+                    minute: '2-digit', 
+                    second: '2-digit' 
+                };
+                document.getElementById('datetime').textContent = now.toLocaleDateString('id-ID', options);
+            }
+
+            setInterval(updateDateTime, 1000);
+            updateDateTime();
+        </script>
+
+        <style>
+
+
+            /* Styling untuk tanggal dan waktu (datetime) */
+            .datetime {
+                font-size: 0.9rem; /* Menyesuaikan ukuran teks agar lebih cocok dengan navbar */
+                font-weight: 600;
+                color: #666; /* Warna teks untuk tanggal dan waktu */
+                background-color: #f8f9fa; /* Latar belakang yang lebih terang */
+                padding: 6px 12px; /* Padding untuk memberi jarak */
+                border-radius: 6px; /* Menambahkan radius agar sudut lebih halus */
+                margin-left: 15px; /* Menjaga jarak dengan item navbar lainnya */
+            }
+
+            /* Agar tampilannya lebih rapi saat responsif */
+            @media (max-width: 767px) {
+                .datetime {
+                    font-size: 0.8rem;
+                    margin-left: 0;
+                    margin-top: 10px; /* Memberi ruang di perangkat kecil */
+                }
+            }
+        </style>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01jez6e4mrm85heqdxj88ptf5f.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Warak Ngendog, Simbol Keragaman Budaya di Semarang</h1>
+                            <!--<h2 class="subheading">Problems look mighty small from 150 miles up</h2>-->
+                            <span class="meta">
+                                Posted by
+                                <a href="#!">Blogger Semarang</a>
+                                on February 10, 2025
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                       <p>Warak Ngendog merupakan simbol budaya unik dari Kota Semarang yang sarat dengan nilai filosofis dan sejarah panjang. Secara harfiah, "Warak" berasal dari bahasa Arab yang berarti suci, sementara "Ngendog" dari bahasa Jawa berarti bertelur. </p>
+                       <p>Kombinasi ini menggambarkan pentingnya menjaga kesucian hati dan pikiran, terutama menjelang bulan Ramadan. Warak Ngendog menjadi bagian tak terpisahkan dari perayaan Dugderan, festival rakyat khas Semarang yang diadakan untuk menyambut bulan suci. </p>
+                        <h2 class="section-heading">Warak Ngendog Budaya Semarang</h2>
+                        <a href="#!"><img class="img-fluid" src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01jez6f85fbbpg2x62nbnc7g38.jpg" alt="..." /></a>
+                        <span class="caption text-muted">LAWANG SEWU</span>
+                        <p>Festival ini biasanya dilengkapi dengan kirab budaya, pasar rakyat, dan berbagai pertunjukan seni yang memeriahkan suasana​.</p>
+                        <p>Warak Ngendog sendiri adalah makhluk mitos yang melambangkan akulturasi budaya. Kepala menyerupai naga mencerminkan pengaruh budaya Tionghoa, tubuh menyerupai unta mewakili budaya Arab, dan kaki yang mirip kambing menggambarkan budaya Jawa.</p>
+                        <p>Wujud ini melambangkan semangat kerukunan dalam keberagaman etnis di Semarang​.</p>
+                        <P>Hiasan warna-warni pada tubuh Warak Ngendog juga mengandung makna filosofi, seperti perjuangan manusia melawan hawa nafsu dan ajakan untuk introspeksi diri menjelang Ramadan​.</P>
+                        <p>Festival Dugderan yang berlangsung sebelum Ramadan memiliki puncak acara berupa kirab Warak Ngendog di sepanjang jalan utama Semarang. Tradisi ini diperkirakan sudah ada sejak abad ke-19, bahkan diyakini lebih tua dari usia resmi Kota Semarang itu sendiri. </p>
+                        <p>Selama perayaan, Warak Ngendog menjadi daya tarik utama, baik sebagai simbol budaya maupun permainan tradisional anak-anak yang dahulu dibuat dari kayu atau gabu</p>
+                        <p>Kini, Warak Ngendog tak hanya menjadi ikon budaya tetapi juga lambang persatuan yang memperkuat identitas Kota Semarang​.</p>
+                        <p>Dengan makna filosofis dan nilai sejarahnya, Warak Ngendog tidak hanya menjadi kebanggaan warga Semarang tetapi juga bagian penting dari warisan budaya Indonesia.</p>
+                        <!--<p>
+                            Placeholder text by
+                            <a href="http://spaceipsum.com/">Space Ipsum</a>
+                            &middot; Images by
+                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
+                        </p>-->
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright Kelompok 2</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
